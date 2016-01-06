@@ -15,4 +15,9 @@ class StorySpiderItem(scrapy.Item):
     title = scrapy.Field()
     content = scrapy.Field()
     moral = scrapy.Field()
-    
+
+
+class ProverbSpiderItem(scrapy.Item):
+	content = scrapy.Field()
+	note = scrapy.Field()
+	Meaning = scrapy.Field()
